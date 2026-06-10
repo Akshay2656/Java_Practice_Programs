@@ -18,10 +18,5 @@ class Main {
         if(isPrime){
             System.out.println("Prime number");
         }
-            
-    
-        
-        
-        
     }
 }
