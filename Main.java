@@ -2,7 +2,7 @@ class Main {
     public static void main(String[] args) {
         int num = 12   ;
         boolean isPrime = true;
-        
+        // num less than or equals to 1 is not prime number
         if (num <= 1){
             System.out.println("Not Prime");
         }
