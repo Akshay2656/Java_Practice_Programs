@@ -1,15 +1,15 @@
 class Main {
     public static void main(String[] args) {
-        int num = 12   ;
+        int number = 12   ;
         boolean isPrime = true;
-        // num less than or equals to 1 is not prime number
-        if (num <= 1){
+        
+        if (number <= 1){
             System.out.println("Not Prime");
         }
         else{
-            for (int i = 2; i < num ; i++){
-                if (num % i == 0){
-                    System.out.println(num+" not prime number");
+            for (int i = 2; i < number ; i++){
+                if (number % i == 0){
+                    System.out.println(number+" not prime number");
                     isPrime = false;
                     break;
                 }
