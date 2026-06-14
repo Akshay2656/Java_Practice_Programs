@@ -1,6 +1,6 @@
 # Java_Practice_Programs
 
-## Prime Number
+## 1. Prime Number
 
-## CountObject
+## 2. CountObject
 ### Counting how many object are created using static variable
