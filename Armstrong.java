@@ -1,15 +1,20 @@
+import java.util.*;
+
 public class Armstrong {
 	
 	public static void main(String[] args) {
-		int num = 153;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Ente number to check");
+		int number = sc.nextInt();
 		int sum = 0;
-		int original = num;
+		int original = number;
 		
 		
-		while (num != 0) {
-			int digits = num % 10;
+		while (number != 0) {
+			int digits = number % 10;
 			sum += Math.pow(digits, 3);
-			num = num / 10;
+			number = number / 10;
 			
 		}
 		if (original == sum ) {
