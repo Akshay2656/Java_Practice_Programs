@@ -1,7 +1,15 @@
+import java.util.*;
+
 public class IncrementCalculation {
 	public static void main(String[] args) {
-		double salary = 10000;
-		int yearsOfExp = 10;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your salary");
+		double salary = sc.nextDouble();
+		
+		System.out.println("Enter your Years Of Experience");
+		int yearsOfExp = sc.nextInt();
+		
 		double increment = 0;
 		
 		if (yearsOfExp >= 5) {
