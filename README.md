@@ -10,3 +10,7 @@
 ## 4. Armstrong Check
 
 ## 5. Fibonacci Series
+
+## 6. Lonest of three number
+
+## 7. Hour Glass problem
