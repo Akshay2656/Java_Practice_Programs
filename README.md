@@ -24,3 +24,5 @@
 ## 11. Consonent And Vowel Check
 
 ## 12. Missing Number
+
+## 13. Password Strength Checker
